@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".fragment.SendSMS">
+
+    <RelativeLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            />
+        <!--        android:clipToPadding="false"-->
+        <!--        android:paddingStart="50dp"-->
+        <!--        android:paddingEnd="50dp"-->
+
+        <LinearLayout
+            android:id="@+id/dotsLayout"
+            android:layout_below="@+id/viewPager"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-30dp"
+            android:layout_height="10dp"
+            android:orientation="horizontal"
+            >
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/mobilenum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:layout_below="@id/login"
+        android:background="@drawable/textbox"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/mobile_icon"
+        android:hint="Enter Mobile Number"
+        android:textColorHint="@color/black"
+        android:padding="15dp"
+        />
+
+    <EditText
+        android:id="@+id/et_msg"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/editTextEmail"
+        android:background="@drawable/textbox"
+        android:drawablePadding="20dp"
+        android:padding="15dp"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:gravity="top|start"
+        android:hint="Type your message here..."
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sendbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showPasswordCheckBox"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"
+        android:text="Send"
+        android:textSize="15dp"
+
+        />
+
+</LinearLayout>

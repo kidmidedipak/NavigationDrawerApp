@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragment.APIFragment">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        -->
+<!--        >-->
+<!--     <EditText-->
+<!--         android:id="@+id/apiTxt"-->
+<!--         android:layout_width="match_parent"-->
+<!--         android:layout_height="wrap_content"-->
+<!--         android:background="@drawable/textbox"-->
+<!--         android:layout_marginTop="20dp"-->
+<!--         android:hint="Enter api"-->
+
+<!--         />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/sendGetBtn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Send GET API"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:background="@drawable/button"-->
+<!--             android:textSize="10sp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/getApiRes"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+<!--        <Button-->
+<!--            android:id="@+id/sendPostBtn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="POST API"-->
+<!--            android:layout_margin="10dp"-->
+<!--             android:textSize="10sp"-->
+<!--            />-->
+<!--        <Button-->
+<!--            android:id="@+id/sendPutBtn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--             android:textSize="10sp"-->
+<!--            android:text="PUT API"-->
+<!--            />-->
+<!--         <Button-->
+<!--            android:id="@+id/sendDeleteBtn"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--             android:textSize="10sp"-->
+<!--            android:text="DELETE API"-->
+<!--            />-->
+<!--        </LinearLayout>-->
+<!--        <TextView-->
+<!--            android:id="@+id/response"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+
+</FrameLayout>

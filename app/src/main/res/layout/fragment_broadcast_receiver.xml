@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".fragment.BroadcastReceiver">
+
+
+    <EditText
+        android:id="@+id/mobilenum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:layout_below="@id/login"
+        android:background="@drawable/textbox"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/mobile_icon"
+        android:hint="Enter Mobile Number"
+        android:textColorHint="@color/black"
+        android:padding="15dp"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sendbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showPasswordCheckBox"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"
+        android:backgroundTint="#B00FFF19"
+        android:textStyle="bold"
+        android:text="Call"
+        android:textSize="18dp"
+
+        />
+
+</LinearLayout>
